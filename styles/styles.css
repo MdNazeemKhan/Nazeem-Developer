@@ -1,1 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* univarsal selector section */
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+
+/* header section */
+
+
+
+
+
+
+.banner-section-container{
+    width: 1440px;
+    height: 652px;
+    border: 2px solid black;
+    display: flex;
+    background-image: url(../assets/Hero-bg.png);
+    
+
+
+}
+
+.banner-text-container{
+    width: 998px;
+    height: 582px;
+    border: 2px solid rgb(255, 38, 38);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.header-title{
+    margin-top: 10px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color: #0D1321;
+
+}
+
+
+
+.banner-text-container .description{
+    
+   margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal; }
+
+/* sheard style */
+
+    
+
+
+
+
+.btn-praimary{
+    
+    background-color: #0D1321;
+    border: none;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Arsenal SC", sans-serif;
+    margin-top: 20px;
+}
