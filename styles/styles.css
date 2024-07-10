@@ -27,8 +27,6 @@
 
 
 
-
-
 /* header section */
 
 
@@ -41,16 +39,12 @@
 }
 
 
-
-
 .banner-section-container{
    
     height: 652px;
     width: 1440px;
     background-image: url(../assets/Hero-bg.png);
     padding: 5px;
-
-
 
 }
 
@@ -63,9 +57,7 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-    
-
-    
+        
 }
 
 .header-title{
@@ -97,9 +89,6 @@
 
     
 
-
-
-
 .btn-praimary{
     
     background-color: #0D1321;
@@ -111,8 +100,6 @@
     font-family: "Arsenal SC", sans-serif;
     margin-top: 20px;
 }
-
-
 
 
 /* main section start
@@ -330,7 +317,7 @@ iframe{
 }
 
 .Support-section{
-    border: 2px solid black;
+    
     width: 730px;
     height: 104px;
     margin: 60px auto;
@@ -358,7 +345,7 @@ iframe{
 .feedbeck{
     width: 684px;
     height: 57px;
-    border: 2px solid black;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -372,13 +359,54 @@ iframe{
 .massage{
     width: 548px;
    height: 57px;
-   display: inline;
    border-radius: 8px;
+   text-align: center;
+   font-size: 20px;
+
+   
 }
 
 .Submit{
     width: 120px;
    height: 57px;
-   display: inline;
    border-radius: 8px;
+   font-size: medium;
+   font-weight: bold;
 }
+
+
+
+/* end-section */
+
+
+
+.end-section{
+    width: 1140px;
+    height: 36px;
+    
+    margin: 60px auto;
+    display: flex;
+    
+}
+
+.Commitment{
+    text-align: start;
+   margin-top: 8px;
+   font-size: 20px;
+   font-weight: bold;
+   width: 400px;
+
+}
+
+
+.social-media{
+     width: 157px;
+     height: 36px;
+     justify-content: right;
+     display: flex;
+     margin-left: auto;
+     gap: 8px;
+
+
+
+
