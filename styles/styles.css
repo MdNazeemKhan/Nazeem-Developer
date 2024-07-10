@@ -5,13 +5,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap');
+
+/* Azeret mono */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
 /* univarsal selector section */
 
-*{
+ *{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-}
+} 
 
 
 
@@ -21,31 +27,39 @@
 /* header section */
 
 
+.header-section{
+        
+        width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    display: flex;
+}
 
 
 
 
 .banner-section-container{
-    width: 1440px;
+   
     height: 652px;
-    border: 2px solid black;
-    display: flex;
+    width: 1440px;
     background-image: url(../assets/Hero-bg.png);
-    
+    padding: 5px;
+
 
 
 }
 
 .banner-text-container{
-    width: 998px;
+    max-width:  998px;
     height: 582px;
-    border: 2px solid rgb(255, 38, 38);
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
     
+    margin: 20px auto;
+    flex-direction: column;
+    display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin: 0 auto;
+    
+
     
 }
 
@@ -91,4 +105,169 @@
     color: white;
     font-family: "Arsenal SC", sans-serif;
     margin-top: 20px;
+}
+
+
+
+
+/* main section start
+
+.main-intro{
+        border: 2px solid rgb(0, 0, 0);            
+        width: 946px;
+        height: 150px;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top:120px;
+    
+}
+.intro{ 
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+
+.intro-description{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 15px;
+} */
+
+
+/* .services{
+    border: 2px solid black;
+    width: 946px;
+    height: 336px;
+    justify-content: start;
+
+} */
+
+/* .services-container {
+    border: 2px solid blue;
+    width: 977px;
+    display: flex;
+    justify-content: center;
+
+} */
+
+
+
+/* .main-container{
+            
+    border: 2px solid rgb(255, 6, 6);
+    height: 1395px;
+    width: 1140px;
+    margin: 140px auto;
+} */
+
+
+.intro-section{
+          
+          width: 946px;
+          height: 150px;
+          margin: 0 auto;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;  
+          
+
+}
+
+.intro{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.intro-description{
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+
+.main-section{
+    margin-top: 150px;
+}
+
+
+.services-section{
+    width: 946px;
+    height: 336px;
+    border: 2px solid black;
+    margin: 100px auto;
+    display: flex;
+    
+}
+.text-section{
+    width: 550px;
+    height: 336px;
+    border: 2px solid red;
+    align-items: start;
+
+}
+
+.img-section{
+    width: 396px;
+    height: 336px;
+    border: 2px solid rgb(40, 2, 211);
+}
+
+.services-heading{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 50px;
+    color: #555963;
+    
+}
+
+.services-description{ 
+    font-family: "Inter", sans-serif;
+    margin-top: 30px;
+    font-size: 14px;
+    }
+
+.btn-learn{
+    font-family:"Arsenal SC", sans-serif;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: #555963;
+    color: aliceblue;
+
+    
+}
+
+.img-section{
+    text-align: center;
+    
+}
+
+
+
+
+
+/* main-section-bg */
+
+.main-section-bg{
+    max-width: 1140px;
+    max-height: 1393;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: rgba(255, 221, 250, 0.178);
+    
 }
