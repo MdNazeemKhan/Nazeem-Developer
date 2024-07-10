@@ -11,6 +11,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
 
+ /* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
 /* univarsal selector section */
 
  *{
@@ -186,13 +191,14 @@
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
+    margin-top: 15px;
 }
 .intro-description{
-    margin-top: 20px;
+    
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 
@@ -204,7 +210,6 @@
 .services-section{
     width: 946px;
     height: 336px;
-    border: 2px solid black;
     margin: 100px auto;
     display: flex;
     
@@ -212,7 +217,6 @@
 .text-section{
     width: 550px;
     height: 336px;
-    border: 2px solid red;
     align-items: start;
 
 }
@@ -220,7 +224,7 @@
 .img-section{
     width: 396px;
     height: 336px;
-    border: 2px solid rgb(40, 2, 211);
+    
 }
 
 .services-heading{
@@ -266,8 +270,115 @@
 .main-section-bg{
     max-width: 1140px;
     max-height: 1393;
-    border: 2px solid black;
     margin: 0 auto;
-    background-color: rgba(255, 221, 250, 0.178);
+    background-color: rgba(255, 221, 250, 0.253);
     
+}
+
+
+
+
+
+
+/* video-section start */
+
+.video-section{
+    max-width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    background-color: #fff6fe;
+}
+.Inspiration-description{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin: 0 60px 0 60px;
+    text-align: center;
+
+padding: 40px;
+      
+}
+.video-jankar-sir{
+   width: 1140px;
+   height: 400px;
+   text-align: center;
+   
+ 
+
+}
+/* video-section end */
+
+iframe{
+    height: 400px;
+    width: 800px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 15px solid rgba(114, 114, 114, 0.308);;
+}
+
+.footer-section{
+    width: 1140px;
+    height: 313px;
+    background-image: linear-gradient(rgb(16, 14, 34), transparent) ,url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    
+    
+    
+}
+
+.Support-section{
+    border: 2px solid black;
+    width: 730px;
+    height: 104px;
+    margin: 60px auto;
+    text-align: center;
+
+
+}
+
+
+.Support-description{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.438);
+}
+
+.support-title{
+            
+            font-family: "Archivo Black", sans-serif;
+            font-size: 35px;
+            color: white;
+            text-shadow: #0D1321;
+}
+
+.feedbeck{
+    width: 684px;
+    height: 57px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 16px;
+   
+   
+    
+}
+
+.massage{
+    width: 548px;
+   height: 57px;
+   display: inline;
+   border-radius: 8px;
+}
+
+.Submit{
+    width: 120px;
+   height: 57px;
+   display: inline;
+   border-radius: 8px;
 }
